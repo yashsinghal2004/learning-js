@@ -1,7 +1,8 @@
+let fs=require('fs');
 
 let a= new Promise((resolve)=>{
     setTimeout(()=>{
-        resolve("Hi there");
+        fs.readFile()
     }, 2000);
 });
 console.log(a);
